@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/maplex/static/css/main.0b3f3951.css",
+    "main.js": "/maplex/static/js/main.939e052a.js",
+    "static/media/Raiden.png": "/maplex/static/media/Raiden.eead9ce80b7b8fb9f8d8.png",
+    "static/media/YandexSansText-RegularItalic.ttf": "/maplex/static/media/YandexSansText-RegularItalic.40ab454b96e2fe420bfd.ttf",
+    "static/media/YandexSansDisplay-Bold.ttf": "/maplex/static/media/YandexSansDisplay-Bold.54cceaa0fa5c4fa6e5c1.ttf",
+    "static/media/akzidenzgroteskpro_bold.ttf": "/maplex/static/media/akzidenzgroteskpro_bold.e156b01f5571c6c89198.ttf",
+    "static/media/akzidenzgroteskpro_boldex.otf": "/maplex/static/media/akzidenzgroteskpro_boldex.5b7699356120e90f7556.otf",
+    "static/media/123.png": "/maplex/static/media/123.ed36171ab6b08eecf2e6.png",
+    "static/media/JavaScript.png": "/maplex/static/media/JavaScript.5aee537b1de530fe664b.png",
+    "index.html": "/maplex/index.html",
+    "main.0b3f3951.css.map": "/maplex/static/css/main.0b3f3951.css.map",
+    "main.939e052a.js.map": "/maplex/static/js/main.939e052a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b3f3951.css",
+    "static/js/main.939e052a.js"
+  ]
+}
