@@ -55,7 +55,7 @@ const Banner = () => {
            whileInView={'show'}
            viewport={{once: false, amount:0.4}}
            className='flex '>
-            <button className='xs:text-[100px] lg:w-[500px] w-[400px] akzext btn-ram btn btn-lg  mt-[1em]'><a>Написать</a></button>
+            <button className='xs:text-[100px] lg:w-[500px] w-[400px] akzext btn-ram btn btn-lg  mt-[1em]'><a href='https://t.me/backtrackkkk' target='_blank'>Написать</a></button>
           </motion.div>
           </div>
  
