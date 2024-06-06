@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'YandexBold';
+  src: url('./font//yandex/YandexSansDisplay-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yandex Sans Text';
+  src: url('./font/yandex/YandexSansText-RegularItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AkzidenzBold';
+  src: url('./font/akzidenz/akzidenzgroteskpro_bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AkzidenzBoldExt';
+  src: url('./font/akzidenz/akzidenzgroteskpro_boldex.otf') format('truetype');
+}
+.yandex-font{
+  font-family: 'YandexBold';
+}
+.yandex-font-thin{
+  font-family: 'Yandex Sans Text';
+}
+.akz{
+  font-family: 'AkzidenzBold';
+}
+.akzext{
+  font-family: 'AkzidenzBoldExt';
+}
+.text-ab{
+  -webkit-text-stroke: 1px #2777c1;
+}
+.log{
+  -webkit-text-stroke: 2px #2777c1;
+}
+.name{
+  font-size: 20px;
+}
+.typing{
+  color: #2777c1;
+}
+
+.btn {
+  border: 2px solid #2777c1;
+  background: #ffffff;
+  transition: 1s;
+
+}
+#logo1{
+  color: #fff;
+  transition: 0.3s;
+}
+#logo1:hover{
+  color:#80bdf7;
+  transition: 0.5s;
+}
+#logo2{
+  color: #fff;
+  transition: 0.3s;
+}
+#logo2:hover{
+  color:#80bdf7;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+.buts1, .buts2, .buts3, .buts4{
+  color: #fff;
+  transition: 0.2s;
+}
+.buts1:hover, .buts2:hover, .buts3:hover, .buts4:hover{
+  transition: 0.5s;
+  color:#80bdf7;
+  text-decoration: underline;
+}
+.navick{
+  border-radius: 0px 0px 30px 30px;
+}
+.main-text{
+  -webkit-text-stroke: 2px #2777c1;
+}
+.btn-scroll-up{
+
+
+  margin-bottom: 20px;
+  background-color: #2777c1;
+  float: right;
+  transform: translate(-2em, -2em);
+  transition: 0.2s;
+  
+}
+
+
+
+.ramka-1 {
+  float:right;
+  margin-top: -350px;
+  margin-right: -140px;
+  
+
+
+
+  background-image: url(/src/assets/123.png);
+
+  
+}
+.ramka-1:hover{
+  z-index: 9999;
+}
+
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+    
+    background: #ffffff;
+    background-size: 150% 150%;
+  }
+ 
+
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+    -webkit-text-stroke: 2px #2777c1;
+  }
+  .h3 {
+    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    -webkit-text-stroke: 2px #2777c1;
+  }
+  .btn {
+    @apply rounded-full  font-medium;
+    width: 400px;
+    
+  }
+  .btn a{
+    @apply  xs:text-[55px] text-[25px]  font-medium;
+    color: #2777c1;
+    
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+  .btn-lg {
+    @apply h-[70px] xs:h-[150px] xs:w-[1000px] text-base;
+    
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+  }
+  .section {
+    @apply py-20 lg:py-40 lg:h-screen flex items-center;
+  }
+}
