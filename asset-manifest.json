@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maplex/static/css/main.0b3f3951.css",
-    "main.js": "/maplex/static/js/main.3835c064.js",
+    "main.js": "/maplex/static/js/main.417d2330.js",
     "static/media/Raiden.png": "/maplex/static/media/Raiden.eead9ce80b7b8fb9f8d8.png",
     "static/media/YandexSansText-RegularItalic.ttf": "/maplex/static/media/YandexSansText-RegularItalic.40ab454b96e2fe420bfd.ttf",
     "static/media/YandexSansDisplay-Bold.ttf": "/maplex/static/media/YandexSansDisplay-Bold.54cceaa0fa5c4fa6e5c1.ttf",
@@ -11,10 +11,10 @@
     "static/media/JavaScript.png": "/maplex/static/media/JavaScript.5aee537b1de530fe664b.png",
     "index.html": "/maplex/index.html",
     "main.0b3f3951.css.map": "/maplex/static/css/main.0b3f3951.css.map",
-    "main.3835c064.js.map": "/maplex/static/js/main.3835c064.js.map"
+    "main.417d2330.js.map": "/maplex/static/js/main.417d2330.js.map"
   },
   "entrypoints": [
     "static/css/main.0b3f3951.css",
-    "static/js/main.3835c064.js"
+    "static/js/main.417d2330.js"
   ]
 }
